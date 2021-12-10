@@ -1,0 +1,144 @@
+
+/* Pen Title */
+.pen-title {
+  padding: 50px 0;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.pen-title h1 {
+  margin: 0 0 20px;
+  font-size: 48px;
+  font-weight: 300;
+}
+.pen-title span {
+  font-size: 12px;
+}
+.pen-title span .fa {
+  color: #33b5e5;
+}
+.pen-title span a {
+  color: #4f992a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* Form Module */
+.form-module {
+  position: relative;
+  background: #ffffff;
+  max-width: 50%;
+  width: 100%;
+  border-top: 5px solid #006837;
+  box-shadow: 10px 10px 5px grey;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .form-module {
+  
+  max-width:98% !important;
+  
+  
+}
+  
+}
+
+@media (max-width: 375px) {
+  .form-module {
+  
+  max-width:160% !important;
+  
+  
+}
+  
+}
+
+.form-module .toggle {
+ cursor: pointer;
+  background: #4f992a;
+  width: 100%;
+  border: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  transition: 0.3s ease;
+  text-align: center;
+}
+.form-module .toggle .tooltip {
+  position: absolute;
+  top: 5px;
+  right: -65px;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  width: auto;
+  padding: 5px;
+  font-size: 10px;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.form-module .toggle .tooltip:before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  display: block;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid rgba(0, 0, 0, 0.6);
+}
+.form-module .form {
+  display: none;
+  padding: 40px;
+}
+.form-module .form:nth-child(2) {
+  display: block;
+}
+.form-module h2 {
+  margin: 0 0 20px;
+  color: #4f992a;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+}
+.form-module input {
+  outline: none;
+display: block;
+width: 100%;
+border: 1px solid
+#d9d9d9;
+margin: 0px 10px 20px;
+padding: 10px 15px;
+box-sizing: border-box;
+font-weight: 400;
+transition: 0.3s ease;
+}
+.form-module input:focus {
+  border: 1px solid #33b5e5;
+  color: #333333;
+}
+.form-module button {
+  cursor: pointer;
+  background: #4f992a;
+  width: 100%;
+  border: 0;
+  padding: 10px 15px;
+  color: #ffffff;
+  transition: 0.3s ease;
+  border-radius: 5px;
+}
+.form-module button:hover {
+  background: #014c26;
+  color: #ffffff;
+}
+.form-module .cta {
+  background: #f2f2f2;
+  width: 100%;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  color: #666666;
+  font-size: 12px;
+  text-align: center;
+}
+.form-module .cta a {
+  color: #333333;
+  text-decoration: none;
+}
